@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(240, 58, 58, 0.87);
+  background-color: #16e027;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fcf7f7;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -54,6 +54,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+ul {
+  list-style-type: none;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
