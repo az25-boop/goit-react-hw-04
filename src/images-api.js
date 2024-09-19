@@ -9,6 +9,7 @@ export default async function fetchImages(request, page) {
       client_id: AUTH_KEY,
       query: request,
       page: page,
+      per_page: 13,
     },
   });
 }

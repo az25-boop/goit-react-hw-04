@@ -28,7 +28,7 @@ export default function SearchBar({ onSubmit }) {
           type="text"
           autoComplete="off"
           autoFocus
-          placeholder="Шукати малюнки та фото тута"
+          placeholder="Шукати фото"
         />
         <button type="submit">Почати пошук</button>
       </form>
