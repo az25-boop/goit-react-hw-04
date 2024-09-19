@@ -4,10 +4,10 @@ import s from "./SearchBar.module.css";
 export default function SearchBar({ onSubmit }) {
   function handleSubmit(event) {
     const notify = () =>
-      toast("Search field must be filled", {
+      toast("Поле пошуку необхідно заповнити", {
         duration: 1500,
         style: {
-          backgroundColor: "pink",
+          backgroundColor: "red",
         },
       });
     event.preventDefault();
@@ -28,9 +28,9 @@ export default function SearchBar({ onSubmit }) {
           type="text"
           autoComplete="off"
           autoFocus
-          placeholder="Search images and photos"
+          placeholder="Шукати малюнки та фото тута"
         />
-        <button type="submit">Search</button>
+        <button type="submit">Почати пошук</button>
       </form>
     </header>
   );
