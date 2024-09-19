@@ -1,11 +1,11 @@
-/* .modal {
+.modal {
   display: flex;
   flex-direction: column;
 }
 
 .icon {
   width: 40px;
-} */
+}
 
 .overlay {
   position: fixed;
@@ -13,6 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -20,10 +21,6 @@
   border: none;
   background-color: white;
   position: absolute;
-  /* top: 40px;
-    left: 40px;
-    right: 40px;
-    bottom: 40px; */
   padding: 40px;
   border-radius: 7px;
   display: flex;

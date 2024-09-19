@@ -1,5 +1,6 @@
 import ImageCard from "../ImageCard/ImageCard";
 import s from "./ImageGallery.module.css";
+
 export default function ImageGallery({ items, openModal, changeImg }) {
   return (
     <ul className={s.gallery}>
